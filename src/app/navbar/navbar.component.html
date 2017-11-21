@@ -1,0 +1,57 @@
+<ul id="dropdown-visible" class="dropdown-content menu-custom">
+  <li class="waves-effect waves-light" routerLink="plantilla/tag-canciones" routerLinkActive="active">
+    <a><i class="material-icons left">queue_music</i> Tag de las 20 canciones</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/mascota" routerLinkActive="active">
+    <a><i class="material-icons left">pets</i> Primer Mascota</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/artista" routerLinkActive="active">
+    <a><i class="material-icons left">stars</i> Artista Preferido</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/tag-peliculas" routerLinkActive="active">
+    <a><i class="material-icons left">movie</i> Tag de las 10 películas</a>
+  </li>
+</ul>
+
+<div class="navbar-fixed">
+  <nav class="teal darken-3">
+    <div class="nav-wrapper container">
+      <a class="button-collapse pointer" data-activates="slide-out" id="button-collapse"><i class="material-icons">menu</i></a>
+      <a routerLink="home" class="brand-logo pointer">Dreamin</a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li>
+          <a class="dropdown-button waves-effect waves-light" data-activates="dropdown-visible">
+            <i class="material-icons left">assignment</i>Plantillas<i class="material-icons right">arrow_drop_down</i>
+          </a>
+        </li>
+        <li class="waves-effect waves-light" (click)="closeSession()"><a><i class="material-icons left">assignment_return</i> Salir</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<!-- Sidebar visual in mobile -->
+<ul id="dropdown-mobile" class="dropdown-content menu-custom">
+  <li class="waves-effect waves-light" routerLink="plantilla/tag-canciones" routerLinkActive="active">
+    <a><i class="material-icons left">queue_music</i> Tag de las 20 canciones</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/mascota" routerLinkActive="active">
+    <a><i class="material-icons left">pets</i> Primer Mascota</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/artista" routerLinkActive="active">
+    <a><i class="material-icons left">stars</i> Artista Preferido</a>
+  </li>
+  <li class="waves-effect waves-light" routerLink="plantilla/tag-peliculas" routerLinkActive="active">
+    <a><i class="material-icons left">movie</i> Tag de las 10 películas</a>
+  </li>
+</ul>
+
+<ul id="slide-out" class="side-nav teal lighten-4">
+  <li>
+    <a class="dropdown-button waves-effect waves-light" data-activates="dropdown-mobile">
+      <i class="material-icons left">assignment</i>Plantillas<i class="material-icons right">arrow_drop_down</i>
+    </a>
+  </li>
+  <li (click)="closeSession()"><a><i class="material-icons left">assignment_return</i> Salir</a></li>
+</ul>

@@ -1,0 +1,55 @@
+@import "../scss/_variables";
+
+.container-login {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  background-image: url('../../assets/train.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .login-container {
+    width: 30rem;
+    margin: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: .3rem;
+
+    .btn-custom {
+      background-color: rgba(0, 0, 0, .65) !important;
+    }
+
+    .img-circle {
+      border-radius: 50%;
+      width: 8rem;
+      display: block;
+      margin: auto;
+    }
+
+    .input-field {
+      label {
+        color: $primary-color-text;
+      }
+      input[type=text]:focus + label, input[type=password]:focus + label, .materialize-textarea + label{
+        color: $primary-color-text;
+      }
+      input[type=text]:focus, input[type=password]:focus, .materialize-textarea:focus {
+        border-bottom: 1px solid $primary-color-text;
+        box-shadow: 0 1px 0 0 $primary-color-text;
+      }
+      input, .materialize-textarea {
+        color: $primary-color-text;
+      }
+      .prefix.active {
+        color: $primary-color-text;
+      }
+    }
+  }
+}
+.no-absolute {
+  position: relative;
+}

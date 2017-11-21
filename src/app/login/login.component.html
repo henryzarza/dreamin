@@ -1,0 +1,55 @@
+<div class="container-login" [ngClass]="{'no-absolute': newUser}">
+  <div class="login-container">
+    <div class="row">
+      <h2 class="col s12 white-text center-align">Dreamin</h2>
+
+      <ng-container *ngIf="newUser; else loginUser">
+        <div class="col s12">
+          <img class="responsive-img img-circle" src="https://t4.ftcdn.net/jpg/01/05/72/55/240_F_105725550_LsQIhnhtWkmUfJ7XMyFWAjTxtmsdlICx.jpg">
+        </div>
+        <div class="input-field col s12">
+          <input id="username" type="text" class="validate">
+          <label for="username">Nombre de usuario o correo</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Contraseña</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="repeat-password" type="password" class="validate">
+          <label for="repeat-password">Repetir Contraseña</label>
+        </div>
+        <div class="input-field col s12">
+          <select>
+            <option value="1">Usuario</option>
+            <option value="2">Patrocinador</option>
+            <option value="3">Impulsador</option>
+          </select>
+          <label>Perfil</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="description" class="materialize-textarea"></textarea>
+          <label for="description">Descripción</label>
+        </div>
+        <div class="col s12 center-align mt-1">
+          <a class="waves-effect waves-light btn grey btn-custom" (click)="access()">Ingresar</a>
+        </div>
+      </ng-container>
+
+      <ng-template #loginUser>
+        <div class="input-field col s12">
+          <input id="username" type="text" class="validate">
+          <label for="username">Nombre de usuario o correo</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="password" type="password" class="validate">
+          <label for="password">Contraseña</label>
+        </div>
+        <div class="col s12 center-align mt-1">
+          <a class="waves-effect waves-light btn grey btn-custom" (click)="access()">Ingresar</a>
+          <a class="waves-effect waves-light btn grey btn-custom" (click)="newUser = true">Registrate</a>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</div>

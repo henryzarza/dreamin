@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/materialize-css/dist/css/materialize.css";
+@import "./app/scss/_variables";
+
+body {
+  background-color: lighten($primary-color-light, 15%);
+}
+.pointer {
+  cursor: pointer;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
