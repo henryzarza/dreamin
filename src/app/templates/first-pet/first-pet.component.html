@@ -1,3 +1,52 @@
-<p>
-  first-pet works!
-</p>
+<div class="container">
+  <h3 class="grey-text text-darken-2 center-align">Primer Mascota</h3>
+
+  <div class="row">
+    <div class="col s12 m9 center-block">
+      <div class="card">
+        <div class="card-content" [hidden]="!visualization">
+          <h4 class="grey-text text-darken-2 center-align">Destroyer</h4>
+          <div class="row mt-1 mb-0">
+            <div class="col s12 mb-1">
+              <img class="materialboxed img-template" src="http://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/11/dogesmall.jpg">
+            </div>
+            <div class="col s12">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cupiditate provident inventore excepturi nemo officiis voluptas a quidem vitae. Ipsam reiciendis, corrupti velit iusto ex fugiat accusantium at cumque quos!
+              Deserunt nostrum blanditiis iste sunt sed deleniti libero. Vero ab aspernatur voluptates minus id pariatur nesciunt quasi velit culpa quod, neque amet error aut. Numquam cumque nesciunt minus sequi delectus!
+              Officiis iusto obcaecati aliquid exercitationem animi dicta error tenetur distinctio amet quibusdam voluptates quas itaque dolores, totam corrupti asperiores explicabo repellendus delectus culpa dolorum numquam! Alias totam quod accusantium pariatur!
+            </div>
+          </div>
+        </div>
+        <div class="card-content" [hidden]="visualization">
+          <div class="row mt-1 mb-0">
+            <div class="col s12 l8 mb-1 input-field center-block">
+              <input id="namePet" type="text" class="validate" value="Destroyer">
+              <label class="active" for="namePet">Nombre</label>
+            </div>
+            <div class="col s12 l8 mb-1 file-field input-field center-block">
+              <div class="btn purple darken-4 waves-effect waves-light">
+                <span><i class="material-icons">cloud_upload</i></span>
+                <input type="file">
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path" type="text" readonly>
+              </div>
+            </div>
+            <div class="col s12 center-block input-field">
+              <textarea id="descriptionPet" class="materialize-textarea"></textarea>
+              <label for="descriptionPet">Descricpión</label>
+            </div>
+          </div>
+        </div>
+        <div class="card-action right-align">
+          <ng-template #buttonsEdition>
+            <button class="btn red darken-4 waves-effect waves-light" (click)="visualization = true">Cancelar</button>
+            <button class="btn purple darken-4 waves-effect waves-light">Guardar</button>
+          </ng-template>
+          <button *ngIf="visualization; else buttonsEdition" class="btn purple darken-4 waves-effect waves-light" (click)="visualization = false">Editar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

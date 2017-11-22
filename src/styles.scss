@@ -96,3 +96,13 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: $primary-color;
 }
 /* End override */
+
+.img-template {
+  width: 8rem;
+  margin: auto;
+}
+
+.center-block {
+  margin: auto;
+  float: none !important;
+}
