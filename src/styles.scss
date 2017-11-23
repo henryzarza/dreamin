@@ -42,27 +42,33 @@ body {
 .card .card-content {
   padding: 14px 24px;
 }
-
+.img-template {
+  width: 11rem;
+  margin: auto;
+}
+.center-block {
+  margin: auto;
+  float: none !important;
+}
 /* Init override styles of Materialize */
 .input-field {
   label {
-    color: $primary-color;
+    color: $primary-text-color;
   }
   input[type=text]:focus + label, input[type=password]:focus + label, .materialize-textarea + label{
-    color: $primary-color;
+    color: $primary-text-color;
   }
   input[type=text]:focus, input[type=password]:focus, .materialize-textarea:focus {
-    border-bottom: 1px solid $primary-color;
-    box-shadow: 0 1px 0 0 $primary-color;
+    border-bottom: 1px solid $primary-text-color;
+    box-shadow: 0 1px 0 0 $primary-text-color;
   }
   input, .materialize-textarea {
-    color: $primary-color;
+    color: $primary-text-color;
   }
   .prefix.active {
-    color: $primary-color;
+    color: $primary-text-color;
   }
 }
-
 input:not([type]):focus:not([readonly]),
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
@@ -76,10 +82,9 @@ input[type=tel]:not(.browser-default):focus:not([readonly]),
 input[type=number]:not(.browser-default):focus:not([readonly]),
 input[type=search]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid $primary-color;
-  box-shadow: 0 1px 0 0 $primary-color;
+  border-bottom: 1px solid $primary-text-color;
+  box-shadow: 0 1px 0 0 $primary-text-color;
 }
-
 input:not([type]):focus:not([readonly]) + label,
 input[type=text]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label,
@@ -93,16 +98,19 @@ input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
-  color: $primary-color;
+  color: $primary-text-color;
 }
 /* End override */
 
-.img-template {
-  width: 8rem;
-  margin: auto;
+.card-favorite-artist {
+  background-image: url('assets/font-card-artist.jpg');
+  .card-action {
+    background-color: initial;
+  }
 }
-
-.center-block {
-  margin: auto;
-  float: none !important;
+.card-pet {
+  background-image: url('assets/font-card-pets.jpg');
+  .card-action {
+    background-color: initial;
+  }
 }
