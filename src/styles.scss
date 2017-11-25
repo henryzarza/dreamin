@@ -29,13 +29,6 @@ body {
 .dropdown-content li > a, .dropdown-content li > span {
   color: $primary-text-color;
 }
-.indicator-circle {
-  border: 1pt solid $primary-text-color;
-  border-radius: 50%;
-  width: 1rem;
-  height: 1rem;
-  margin-top: .5rem;
-}
 .m-auto {
   margin: auto;
 }

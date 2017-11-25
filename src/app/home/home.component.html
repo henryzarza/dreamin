@@ -8,81 +8,50 @@
         <i class="material-icons">filter_list</i>
       </a>
       <input type="text" placeholder="Buscar...">
-      <!-- Dropdown Structure -->
+
       <ul id='dropdownSearch' class='dropdown-content'>
-        <li><a>Intereses</a></li>
-        <li><a>Habilidades</a></li>
-        <li><a>Modalidades</a></li>
+        <li>
+          <a>Intereses</a>
+        </li>
+        <li>
+          <a>Habilidades</a>
+        </li>
+        <li>
+          <a>Modalidades</a>
+        </li>
       </ul>
     </div>
   </div>
 
   <div class="row">
-    <div class="col s12 m6 l4">
-      <div class="card sticky-action">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://us.123rf.com/450wm/kakigori/kakigori1403/kakigori140300004/26550331-pretty-young-hipster-style-mother-with-glasses-holding-and-hugging-her-cute-little-baby-daughter-lau.jpg?ver=6">
+
+    <div class="col s12 m6 l4" *ngFor="let user of users; let i = index">
+      <div class="card card-custom" id="user_{{i}}">
+        <div class="card-content-principal">
+          <img src="assets/users/{{user.photo}}" (click)="toggleActive('user_' + i)">
+          <h5 class="purple-text text-darken-4 content-hide">{{user.username}}</h5>
+          <ng-container [ngSwitch]="user.typeModality">
+            <ng-container *ngSwitchCase="1">
+              <h6 class="teal-text text-darken-3 content-hide">Crowdfunding</h6>
+            </ng-container>
+            <ng-container *ngSwitchCase="2">
+              <h6 class="yellow-text text-darken-4 content-hide">Tueque</h6>
+            </ng-container>
+            <ng-container *ngSwitchDefault>
+              <h6 class="deep-orange-text text-darken-4 content-hide">Colaborativa</h6>
+            </ng-container>
+          </ng-container>
         </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Username
-            <div class="indicator-circle right yellow accent-3 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Crowdfunding"></div>
-          </span>
-        </div>
-        <div class="card-action">
-          <button class="btn purple darken-4 waves-effect waves-light">Ver más</button>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Username
-            <i class="material-icons right">close</i>
-          </span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+        <div class="card-content-text">
+          <ng-container [ngSwitch]="user.typeModality">
+            <div *ngSwitchCase="1" class="indicator-circle right teal accent-3 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Crowdfunding"></div>
+            <div *ngSwitchCase="2" class="indicator-circle right yellow darken-4 tooltipped" data-position="bottom" data-tooltip="Trueque"></div>
+            <div *ngSwitchDefault class="indicator-circle right deep-orange darken-4 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Colaborativa"></div>
+          </ng-container>
+          <h5 class="purple-text text-darken-4">{{user.username}}</h5>
+          <p>{{user.description}}</p>
         </div>
       </div>
     </div>
-
-    <div class="col s12 m6 l4">
-      <div class="card sticky-action">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="http://wfarm2.dataknet.com/static/resources/icons/set3/c9f1cdf473a8.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Username
-              <div class="indicator-circle right teal z-depth-3 tooltipped" data-position="bottom" data-tooltip="Trueque"></div>
-          </span>
-        </div>
-        <div class="card-action">
-          <button class="btn purple darken-4 waves-effect waves-light">Ver más</button>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Username
-            <i class="material-icons right">close</i>
-          </span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m6 l4">
-      <div class="card sticky-action">
-        <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="https://cdn0.iconfinder.com/data/icons/avatars-3/512/avatar_beanie_girl-512.png">
-        </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">Username
-              <div class="indicator-circle right deep-orange darken-4 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Colaborativa"></div>
-          </span>
-        </div>
-        <div class="card-action">
-          <button class="btn purple darken-4 waves-effect waves-light">Ver más</button>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Username
-            <i class="material-icons right">close</i>
-          </span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-
   </div>
 </div>

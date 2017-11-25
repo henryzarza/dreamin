@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { CrudService } from '../services/crud.service';
 
 declare var jQuery: any;
 
@@ -9,12 +10,22 @@ declare var jQuery: any;
   encapsulation: ViewEncapsulation.None
 })
 export class HomeComponent implements OnInit {
+  public users: any;
 
-  constructor() { }
+  constructor(private crud: CrudService) { }
 
   ngOnInit() {
+    this.crud.get('users.json').subscribe(
+      data => this.users = data,
+      error => console.log(error)
+    );
+
     jQuery('.tooltipped').tooltip({delay: 50});
     jQuery('.dropdown-button').dropdown();
+  }
+
+  private toggleActive(selector: string) {
+    document.querySelector('#' + selector).classList.toggle('active');
   }
 
 }

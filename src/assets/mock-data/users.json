@@ -1,0 +1,93 @@
+[
+  {
+    "username": "John Doe",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_3.jpg",
+    "typeModality": 1
+  },
+  {
+    "username": "Susan Mary",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_1.jpg",
+    "typeModality": 2
+  },
+  {
+    "username": "Shondell Darling",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_4.jpg",
+    "typeModality": 3
+  },
+  {
+    "username": "Philip Andrew",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_5.jpg",
+    "typeModality": 3
+  },
+  {
+    "username": "Dakota Phelps",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_2.jpg",
+    "typeModality": 2
+  },
+  {
+    "username": "Muhammed Horlan",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_6.jpg",
+    "typeModality": 1
+  },
+  {
+    "username": "Glasgow Robert",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_7.jpg",
+    "typeModality": 3
+  },
+  {
+    "username": "Lady Knowless",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_8.jpg",
+    "typeModality": 2
+  },
+  {
+    "username": "Carlos Keys",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_9.jpg",
+    "typeModality": 1
+  },
+  {
+    "username": "Diana Morales",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_10.jpg",
+    "typeModality": 2
+  },
+  {
+    "username": "Gustav Morle",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_11.jpg",
+    "typeModality": 1
+  },
+  {
+    "username": "Heidi Klum",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_12.jpg",
+    "typeModality": 1
+  },
+  {
+    "username": "Manuel Alvarez",
+    "password": "1234",
+    "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
+    "photo": "user_13.jpg",
+    "typeModality": 1
+  }
+]
