@@ -1,4 +1,5 @@
 @import "../node_modules/materialize-css/dist/css/materialize.css";
+@import "../node_modules/dropzone/dist/dropzone.css";
 @import "./app/scss/_variables";
 
 body {
@@ -42,6 +43,12 @@ body {
 .center-block {
   margin: auto;
   float: none !important;
+}
+.img-navbar {
+  width: 2rem;
+  border-radius: 50%;
+  top: .8rem;
+  margin-right: .3rem;
 }
 /* Init override styles of Materialize */
 .input-field {
@@ -94,6 +101,39 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
   color: $primary-text-color;
 }
 /* End override */
+
+/* Init override styles Dropzone */
+.dropzone {
+  border-radius: 50%;
+  width: 9.4rem;
+  min-height: auto;
+  margin: auto;
+  background-color: transparent;
+  border: 2pt dashed $primary-color-text;
+  padding: .5rem;
+  .dz-default {
+    margin: .6rem 0;
+    i {
+      font-size: 6rem;
+      color: $primary-color-text;
+    }
+  }
+  .dz-preview {
+    &.dz-image-preview {
+      background: none;
+      min-height: auto;
+      width: 100%;
+      margin: 0;
+      background: none;
+    }
+    .dz-image {
+      border-radius: 50%;
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+/* End override styles Dropzone */
 
 .card-favorite-artist {
   background-image: url('assets/font-card-artist.jpg');

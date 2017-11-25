@@ -10,10 +10,15 @@ declare let jQuery: any;
 })
 export class NavbarComponent implements OnInit {
 
+  public username: string;
+  public photoUser: string;
+
   constructor(private route: Router) { }
 
   ngOnInit() {
     jQuery('.button-collapse').sideNav();
+    this.username = localStorage.getItem('username');
+    this.photoUser = localStorage.getItem('userphoto');
   }
 
   private closeSession() {
