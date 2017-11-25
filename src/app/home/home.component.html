@@ -2,29 +2,18 @@
 
   <div class="row">
     <h3 class="col s12 m8 grey-text text-darken-2">Dreamers</h3>
-
-    <div class="input-search col s12 m4 mt-1">
-      <a class='dropdown-button btn purple darken-4' data-activates='dropdownSearch'>
-        <i class="material-icons">filter_list</i>
-      </a>
-      <input type="text" placeholder="Buscar...">
-
-      <ul id='dropdownSearch' class='dropdown-content'>
-        <li>
-          <a>Intereses</a>
-        </li>
-        <li>
-          <a>Habilidades</a>
-        </li>
-        <li>
-          <a>Modalidades</a>
-        </li>
-      </ul>
+    <div class="input-field col s12 m4 mt-1">
+      <select id="select-filter">
+        <option value="" disabled selected>Filtrar por</option>
+        <option value="0">Todos</option>
+        <option value="1">Crowdfunding</option>
+        <option value="2">Trueque</option>
+        <option value="3">Colaborativa</option>
+      </select>
     </div>
   </div>
 
   <div class="row">
-
     <div class="col s12 m6 l4" *ngFor="let user of users; let i = index">
       <div class="card card-custom" id="user_{{i}}">
         <div class="card-content-principal">
@@ -44,7 +33,7 @@
         </div>
         <div class="card-content-text">
           <ng-container [ngSwitch]="user.typeModality">
-            <div *ngSwitchCase="1" class="indicator-circle right teal accent-3 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Crowdfunding"></div>
+            <div *ngSwitchCase="1" class="indicator-circle right teal darken-2 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Crowdfunding"></div>
             <div *ngSwitchCase="2" class="indicator-circle right yellow darken-4 tooltipped" data-position="bottom" data-tooltip="Trueque"></div>
             <div *ngSwitchDefault class="indicator-circle right deep-orange darken-4 z-depth-3 tooltipped" data-position="bottom" data-tooltip="Colaborativa"></div>
           </ng-container>

@@ -5,35 +5,29 @@
     <div class="col s12 m9 center-block">
       <div class="card card-pet">
         <div class="card-content black-text text-darken-4" [hidden]="!visualization">
-          <h4 class="center-align">Destroyer</h4>
+          <h4 class="center-align">{{data['name']}}</h4>
           <div class="row mt-1 mb-0">
             <div class="col s12 mb-1">
-              <img class="materialboxed img-template" src="assets/dog.jpg">
+              <img class="materialboxed img-template" src="assets/{{data['photo']}}">
             </div>
-            <div class="col s12">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex cupiditate provident inventore excepturi nemo officiis voluptas a quidem vitae. Ipsam reiciendis, corrupti velit iusto ex fugiat accusantium at cumque quos!
-              Deserunt nostrum blanditiis iste sunt sed deleniti libero. Vero ab aspernatur voluptates minus id pariatur nesciunt quasi velit culpa quod, neque amet error aut. Numquam cumque nesciunt minus sequi delectus!
-              Officiis iusto obcaecati aliquid exercitationem animi dicta error tenetur distinctio amet quibusdam voluptates quas itaque dolores, totam corrupti asperiores explicabo repellendus delectus culpa dolorum numquam! Alias totam quod accusantium pariatur!
-            </div>
+            <div class="col s12">{{data['description']}}</div>
           </div>
         </div>
         <div class="card-content" [hidden]="visualization">
           <div class="row mt-1 mb-0">
             <div class="col s12 l8 mb-1 input-field center-block">
-              <input id="namePet" type="text" class="validate" value="Destroyer">
+              <input id="namePet" type="text" class="validate" value="{{data['name']}}">
               <label class="active" for="namePet">Nombre</label>
             </div>
-            <div class="col s12 l8 mb-1 file-field input-field center-block">
-              <div class="btn purple darken-4 waves-effect waves-light">
-                <span><i class="material-icons">cloud_upload</i></span>
-                <input type="file">
-              </div>
-              <div class="file-path-wrapper">
-                <input class="file-path" type="text" readonly>
-              </div>
+            <div class="col s12 l8 mb-1 center-block">
+              <form class="dropzone dropzone-card" id="dropzone-img-pet">
+                <div class="dz-default dz-message">
+                  <img class="responsive-img" src="assets/{{data['photo']}}">
+                </div>
+              </form>
             </div>
-            <div class="col s12 center-block input-field">
-              <textarea id="descriptionPet" class="materialize-textarea"></textarea>
+            <div class="col s12 center-block input-field mt-1">
+              <textarea id="descriptionPet" class="materialize-textarea" value="{{data['description']}}"></textarea>
               <label for="descriptionPet">Descricpión</label>
             </div>
           </div>

@@ -11,7 +11,7 @@
     "password": "1234",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
     "photo": "user_1.jpg",
-    "typeModality": 2
+    "typeModality": 3
   },
   {
     "username": "Shondell Darling",
@@ -25,7 +25,7 @@
     "password": "1234",
     "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam qui omnis autem magnam nostrum voluptatibus ab dolorum, fugit corrupti iusto ut unde at optio. Quis corrupti vero totam accusamus consequatur.",
     "photo": "user_5.jpg",
-    "typeModality": 3
+    "typeModality": 2
   },
   {
     "username": "Dakota Phelps",

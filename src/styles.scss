@@ -9,13 +9,13 @@ body {
   cursor: pointer;
 }
 .mt-1 {
-  margin-top: 1rem;
+  margin-top: 1rem !important;
 }
 .mb-1 {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
 }
 .mb-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .menu-custom {
   width: 16rem !important;
@@ -103,7 +103,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 /* End override */
 
 /* Init override styles Dropzone */
-.dropzone {
+.dropzone-login {
   border-radius: 50%;
   width: 9.4rem;
   min-height: auto;
@@ -130,6 +130,37 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
       border-radius: 50%;
       height: auto;
       width: 100%;
+    }
+  }
+}
+.dropzone-card {
+  width: 11rem;
+  min-height: auto;
+  margin: auto;
+  background-color: transparent;
+  border: 2pt dashed $secondary-text-color;
+  padding: .5rem;
+  .dz-default {
+    margin: 0;
+  }
+  .dz-preview {
+    &.dz-image-preview {
+      background: none;
+      min-height: auto;
+      width: 100%;
+      margin: 0;
+      background: none;
+    }
+    .dz-image {
+      height: auto;
+      width: 100%;
+      border-radius: 0;
+    }
+    .dz-remove {
+      background-color: $primary-text-color;
+      color: $primary-color-text;
+      border-radius: .5rem;
+      margin-top: .5rem;
     }
   }
 }

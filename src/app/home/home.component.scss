@@ -1,21 +1,5 @@
 @import '../scss/_variables';
 
-.input-search {
-  .btn {
-    padding: 0 .5rem;
-  }
-  input {
-    width: calc(100% - 2.6rem) !important;
-
-    &:focus {
-      border-bottom: 1px solid $primary-color !important;
-      box-shadow: 0 1px 0 0 $primary-color !important;
-    }
-  }
-  .dropdown-content {
-    width: 9rem !important;
-  }
-}
 .indicator-circle {
   border: 1pt solid $primary-text-color;
   border-radius: 50%;
@@ -63,7 +47,8 @@
       display: block;
       padding-left: 2.8rem;
       text-align: justify;
-      max-height: 16.2rem;
+      max-height: 16rem;
+      height: 16rem;
       overflow-y: auto;
     }
   }
