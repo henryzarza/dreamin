@@ -178,3 +178,11 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     background-color: initial;
   }
 }
+.img-tag {
+  display: block;
+  margin: auto;
+}
+.card-title-custom {
+  font-size: 2rem !important;
+  font-weight: 400 !important;
+}

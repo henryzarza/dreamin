@@ -2,53 +2,56 @@
   <h3 class="grey-text text-darken-2 center-align">Tag de las 20 canciones</h3>
 
   <div class="row">
-    <div class="col s12 m10 offset-m1">
-      <div class="card amber lighten-1">
+    <div class="col s12 m10 offset-m1" *ngFor="let tag of data">
+      <div class="card {{tag['classs']}}">
         <div class="card-content">
-          <span class="card-title">¿Canción que te pone a bailar?</span>
+          <span class="card-title card-title-custom">{{tag['title']}}</span>
           <div class="row mt-1 mb-0">
-            <div class="col s12 l6 mb-1">
-              I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.
+            <div class="col s12 m6 mb-1">
+              <h5>{{tag['titleSong']}}</h5>
+              {{tag['description']}}
             </div>
-            <div class="col s12 l6">
-              <div class="video-container">
-                <iframe width="853" height="480" src="//www.youtube.com/embed/omzk3klIy0E" frameborder="0" allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div class="card-action right-align">
-          <button class="btn purple darken-4 waves-effect waves-light">Editar</button>
-        </div>
-      </div>
-    </div>
-
-    <div class="col s12 m10 offset-m1">
-      <div class="card blue-grey lighten-4">
-        <div class="card-content">
-          <span class="card-title">¿Canción que te pone a triste?</span>
-          <div class="row mt-1 mb-0">
-            <div class="col s12 l6 mb-1 input-field">
-              <textarea id="description" class="materialize-textarea"></textarea>
-              <label for="description">Descripción</label>
-            </div>
-            <div class="col s12 l6 input-field">
-              <input id="urlVideo" type="text" class="validate tooltipped"
-                data-position="bottom"
-                data-tooltip="Copia y pega la URL de YouTube">
-              <label for="urlVideo">URL</label>
+            <div class="col s12 m6">
+              <img class="responsive-img img-tag" src="{{tag['photo']}}" alt="Photo song">
             </div>
           </div>
         </div>
         <div class="card-action right-align">
-          <button class="btn red darken-4 waves-effect waves-light">Cancelar</button>
-          <button class="btn purple darken-4 waves-effect waves-light">Guardar</button>
+          <button class="btn purple darken-4 waves-effect waves-light" (click)="openModal(tag)">Editar</button>
         </div>
       </div>
     </div>
-
   </div>
+</div>
 
+<!-- Modal Structure -->
+<div id="modalEdit" class="modal modal-fixed-footer">
+  <div class="modal-content" *ngIf="registerEdit">
+    <h4>{{registerEdit['title']}}</h4>
+    <div class="row mt-1 mb-0">
+      <div class="col s12 m6">
+        <div class="row mb-0">
+          <div class="col s12 input-field">
+            <input id="urlVideo" type="text" class="validate" value="{{registerEdit['titleSong']}}">
+            <label class="active" for="urlVideo">Título</label>
+          </div>
+          <div class="col s12 input-field">
+            <textarea id="description" class="materialize-textarea validate" value="{{registerEdit['description']}}"></textarea>
+            <label class="active" for="description">Descripción</label>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <form class="dropzone dropzone-card" id="dropzone-img-tag">
+          <div class="dz-default dz-message">
+            <img class="responsive-img" src="{{registerEdit['photo']}}" alt="Photo song">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="modal-action modal-close btn red darken-4 waves-effect waves-light">Cancelar</button>
+    <button class="btn purple darken-4 waves-effect waves-light">Guardar</button>
+  </div>
 </div>
