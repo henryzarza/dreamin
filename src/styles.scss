@@ -178,6 +178,14 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
     background-color: initial;
   }
 }
+.card-movie {
+  background-image: url('assets/font-card-movie.jpg');
+  color: $primary-color-text;
+  background-size: cover;
+  .card-action {
+    background-color: initial;
+  }
+}
 .img-tag {
   display: block;
   margin: auto;

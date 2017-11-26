@@ -24,7 +24,6 @@ export class TagSongsComponent implements OnInit {
       error => console.log(error)
     );
     jQuery('#modalEdit').modal();
-    jQuery('.tooltipped').tooltip({delay: 50});
   }
 
   private openModal(tag) {

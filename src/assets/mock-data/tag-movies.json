@@ -1,0 +1,62 @@
+[
+  {
+    "title": "¿Película preferida?",
+    "titleSong": "Batman: The dark knight",
+    "photo": "https://pm1.narvii.com/6281/2046101f2cb8d5fad79583e13742f2a24cd0193e_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película con la que lloraste?",
+    "titleSong": "My name is Sam",
+    "photo": "https://pm1.narvii.com/6281/834779a50fb75c99986ccaa50d4ac689995fa5f4_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película que odias?",
+    "titleSong": "Catwoman (2004)",
+    "photo": "https://pm1.narvii.com/6281/2b0ac7456aa4a0f83e0ba218a1eb87c71f68e16b_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película amor odio?",
+    "titleSong": "Batman V Superman",
+    "photo": "https://pm1.narvii.com/6281/4dad92081b519d704d333b7622679e810a983914_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película animada preferida?",
+    "titleSong": "Aladín",
+    "photo": "https://pm1.narvii.com/6281/9dffa8684b03a95fdf440609b4f21b1360641c59_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película de tu infancia?",
+    "titleSong": "Dinosaurios",
+    "photo": "http://cdn5.dinosaurioss.com/wp-content/uploads/2014/12/Piecito.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Actriz que odies su actuación?",
+    "titleSong": "Selena Gomez",
+    "photo": "https://www.lapatilla.com/site/wp-content/uploads/2017/11/selena_gomez_destacada_elfarandi.x43795.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Villano preferido en película?",
+    "titleSong": "The Joker",
+    "photo": "https://pm1.narvii.com/6281/f8efc1bd61ebcaf0bb025503634c7b980387fece_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Final de película que te sorprendió?",
+    "titleSong": "Gone girl",
+    "photo": "https://pm1.narvii.com/6281/7455d6eab311109809c9b7d57da163bda19ce37b_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  },
+  {
+    "title": "¿Película que te duerma?",
+    "titleSong": "Los 8 más odiados",
+    "photo": "https://pm1.narvii.com/6281/adcf19958081a8c815619c3dc7d98c189b3a9586_hq.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
+  }
+]

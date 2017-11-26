@@ -1,52 +1,58 @@
 <div class="container">
-    <h3 class="grey-text text-darken-2 center-align">Tag de las 10 películas</h3>
+  <h3 class="grey-text text-darken-2 center-align">Tag de las 10 películas</h3>
 
-    <div class="row">
-      <div class="col s12 m10 offset-m1">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">¿La que te pone a llorar?</span>
-            <div class="row mt-1 mb-0">
-              <div class="col s12 l8 mb-1">
-                I am a very simple card. I am good at containing small bits of information.
-                I am convenient because I require little markup to use effectively.
-              </div>
-              <div class="col s12 l3">
-                <img class="responsive-img" src="https://revmorbifica.files.wordpress.com/2016/06/resena-bajo-la-misma-estrella.png" alt="Portada de la película">
-              </div>
+  <div class="row">
+    <div class="col s12 m9 l8 center-block" *ngFor="let tag of data">
+      <div class="card card-movie">
+        <div class="card-content">
+          <span class="card-title card-title-custom">{{tag['title']}}</span>
+          <div class="row mt-1 mb-0">
+            <div class="col s12 m6 mb-1">
+              <h5>{{tag['titleSong']}}</h5>
+              {{tag['description']}}
             </div>
-
-          </div>
-          <div class="card-action right-align">
-            <button class="btn purple darken-4 waves-effect waves-light">Editar</button>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m10 offset-m1">
-        <div class="card">
-          <div class="card-content">
-            <span class="card-title">¿La que te pone a feliz?</span>
-            <div class="row mt-1 mb-0">
-              <div class="col s12 l8 mb-1 input-field">
-                <textarea id="description" class="materialize-textarea"></textarea>
-                <label for="description">Descripción</label>
-              </div>
-              <div class="col s12 l3 input-field">
-                <input id="urlVideo" type="text" class="validate tooltipped"
-                  data-position="bottom"
-                  data-tooltip="Copia y pega la URL de YouTube">
-                <label for="urlVideo">URL</label>
-              </div>
+            <div class="col s12 m6">
+              <img class="responsive-img img-tag" src="{{tag['photo']}}" alt="Photo song">
             </div>
           </div>
-          <div class="card-action right-align">
-            <button class="btn red darken-4 waves-effect waves-light">Cancelar</button>
-            <button class="btn purple darken-4 waves-effect waves-light">Guardar</button>
-          </div>
+        </div>
+        <div class="card-action right-align">
+          <button class="btn purple darken-4 waves-effect waves-light" (click)="openModal(tag)">Editar</button>
         </div>
       </div>
-
     </div>
-
   </div>
+
+</div>
+
+<!-- Modal Structure -->
+<div id="modalEdit" class="modal modal-fixed-footer">
+  <div class="modal-content" *ngIf="registerEdit">
+    <h4>{{registerEdit['title']}}</h4>
+    <div class="row mt-1 mb-0">
+      <div class="col s12 m6">
+        <div class="row mb-0">
+          <div class="col s12 input-field">
+            <input id="urlVideo" type="text" class="validate" value="{{registerEdit['titleSong']}}">
+            <label class="active" for="urlVideo">Título</label>
+          </div>
+          <div class="col s12 input-field">
+            <textarea id="description" class="materialize-textarea validate" value="{{registerEdit['description']}}"></textarea>
+            <label class="active" for="description">Descripción</label>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6">
+        <form class="dropzone dropzone-card" id="dropzone-img-tag">
+          <div class="dz-default dz-message">
+            <img class="responsive-img" src="{{registerEdit['photo']}}" alt="Photo song">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="modal-action modal-close btn red darken-4 waves-effect waves-light">Cancelar</button>
+    <button class="btn purple darken-4 waves-effect waves-light">Guardar</button>
+  </div>
+</div>

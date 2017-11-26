@@ -20,11 +20,11 @@ export class HomeComponent implements OnInit {
       data => {
         this.users = data;
         this.allUsers = data;
+        jQuery('.tooltipped').tooltip({delay: 50});
       },
       error => console.log(error)
     );
     this.inicializateSelect();
-    jQuery('.tooltipped').tooltip({delay: 50});
   }
 
   private inicializateSelect() {
