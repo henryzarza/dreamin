@@ -2,121 +2,121 @@
   {
     "title": "¿Canción favorita?",
     "titleSong": "Elements of Life",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/4/46/Tiesto-elements-of-life.jpg",
+    "photo": "assets/img-tag-songs/1.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que odias?",
     "titleSong": "Chop Suey",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/5/52/Soad_chop_suey.jpg",
+    "photo": "assets/img-tag-songs/2.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te pone triste?",
     "titleSong": "Ride",
-    "photo": "https://images.genius.com/67eec695181fcb682fe6f2599ff7fbe0.1000x1000x1.jpg",
+    "photo": "assets/img-tag-songs/3.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te recuerde a alguien?",
     "titleSong": "Work Bitch",
-    "photo": "https://tuneuplyrics.files.wordpress.com/2013/10/work_bitch_britney_spears_.jpg",
+    "photo": "assets/img-tag-songs/4.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te ponga feliz?",
     "titleSong": "Born This Way",
-    "photo": "https://images.genius.com/8cea76bfbdf351e85d56e823646554c4.1000x1000x1.png",
+    "photo": "assets/img-tag-songs/5.png",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te recuerde un momento en específico?",
     "titleSong": "Sueños",
-    "photo": "https://resources.tidal.com/images/a1c7eec9/5eae/4306/bc78/0ab5647711ba/1280x1280.jpg",
+    "photo": "assets/img-tag-songs/6.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te sabes perfectamente?",
     "titleSong": "Heavy Cross",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/d/d3/Gossip_-_Heavy_Cross_%28Front%29.jpg",
+    "photo": "assets/img-tag-songs/7.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te haga bailar al momento?",
     "titleSong": "Sua Cara",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Sua_Cara_-_Major_Lazer.jpg/220px-Sua_Cara_-_Major_Lazer.jpg",
+    "photo": "assets/img-tag-songs/8.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te ayude a dormir?",
     "titleSong": "Video Games",
-    "photo": "https://i1.sndcdn.com/artworks-000143452271-scxmj4-t500x500.jpg",
+    "photo": "assets/img-tag-songs/9.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que amas en secreto?",
     "titleSong": "Faith",
-    "photo": "https://images.rapgenius.com/cd8378ee33f8b47c6a540cbac86e7c43.1000x1000x1.jpg",
+    "photo": "assets/img-tag-songs/10.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te encantaba y ahora odias?",
     "titleSong": "Am I Wrong",
-    "photo": "https://images.rapgenius.com/c521f1e81ca09caf46f1bcdd740d5a30.1000x1000x1.jpg",
+    "photo": "assets/img-tag-songs/11.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción de tu disco favorito?",
     "titleSong": "Dance In The Dark",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/a/a1/Dance_in_the_Dark.jpg",
+    "photo": "assets/img-tag-songs/12.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que sepas tocar con un instrumento?",
     "titleSong": "Careless Whisper",
-    "photo": "http://www.decplaypiano.com/assets/george-michael-wham-careless-whisper.jpg",
+    "photo": "assets/img-tag-songs/13.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que has cantado o te gusta cantar en público?",
     "titleSong": "Las Divinas",
-    "photo": "https://st-listas.20minutos.es/images/2011-02/275063/2876322_640px.jpg?1297721148",
+    "photo": "assets/img-tag-songs/14.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que te gusta para conducir?",
     "titleSong": "Where Them Girls At",
-    "photo": "https://i.jeded.com/i/david-guetta-where-them-girls-at-ft-nicki-minaj-flo-rida.16887.jpg",
+    "photo": "assets/img-tag-songs/15.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción de tu infancia?",
     "titleSong": "Power Rangers",
-    "photo": "https://cnet2.cbsistatic.com/img/UTuHl93hJjXsuXlAlo5HIEYeroI=/2017/03/23/a5e65d58-c851-4ed4-946e-18e7caeda689/power-rangers-zeo.jpg",
+    "photo": "assets/img-tag-songs/16.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que nadie esperaría que te guste?",
     "titleSong": "Safari",
-    "photo": "http://cdn2.ipauta.com/wp-content/uploads/2016/06/cover-J-Balvin-Energia.jpg",
+    "photo": "assets/img-tag-songs/17.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que quieres que suene en tu boda?",
     "titleSong": "Marry The Night",
-    "photo": "https://upload.wikimedia.org/wikipedia/en/c/ca/Marry_the_Night.jpg",
+    "photo": "assets/img-tag-songs/18.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que quieres que suene en tu funeral?",
     "titleSong": "Take Me The Church",
-    "photo": "https://images.genius.com/4c52978c08e47b7517e588bd15570f7d.1000x1000x1.jpg",
+    "photo": "assets/img-tag-songs/19.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   },
   {
     "title": "¿Canción que estás escuchando ahora mismo?",
     "titleSong": "Forever Young",
-    "photo": "https://images-na.ssl-images-amazon.com/images/I/51u09p6U3mL._SX355_.jpg",
+    "photo": "assets/img-tag-songs/20.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque quia, ea modi, nostrum quasi, excepturi repellat maxime porro velit ad nihil tenetur quibusdam voluptatem quam molestiae illo incidunt cum aperiam."
   }
 ]
